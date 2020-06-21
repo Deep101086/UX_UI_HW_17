@@ -1,9 +1,8 @@
 #grad1 {height: 700px; background-image: linear-gradient(#F49587, white);}
 #grad2 {height: 700px; background-image: linear-gradient(#FBF0CB, white);}
-h1 {font-family: "Roboto Slab"; font-size: 24; font-weight: normal; letter-spacing: 8pt;}
-#aboutme {color: black;}
-h2 {font-family: "Roboto Slab"; font-size: 36px; letter-spacing: 8pt; text-align: center; line-height: 2;}
-a {font-family: "Roboto Slab"; font-size: 18px; color: black ;}
-img {float:left; margin-right: 100px;}
+h1 {font-family: "Roboto Slab"; font-size: 24; font-weight: normal; letter-spacing: 8pt; margin-left: 14px;}
+h2 {font-family: "Roboto Slab"; font-size: 32px; letter-spacing: 8pt; text-align: center; line-height: 2;}
+a {font-family: "Roboto Slab"; font-size: 18px;}
 p {font-family: "Roboto" ; font-size: 18px; line-height: 2.25;}
-p {float: right; margin: 40px 5px;}
+
+p {
