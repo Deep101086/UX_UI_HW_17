@@ -1,9 +1,38 @@
-#grad1 {height: 700px; background-image: linear-gradient(#F49587, white);}
-h1 {font-family: "Roboto Slab"; font-size: 24; font-weight: normal; letter-spacing: 8pt; margin-left: 14px;}
+#grad1 {height: 750px; background-image: linear-gradient(white, #F49587, white);}
+h1 {font-family: "Roboto Slab"; font-weight: normal; letter-spacing: 6pt; margin-left: 14px;}
+.header {padding: 50px;}
+.topnav a {float: left; padding: 14px; font-family: "Roboto Slab"; font-size: 18px; color: black}
+.topnav-right a {float: right; padding: 14px; font-family: "Roboto Slab"; font-size: 18px; color: black}
+a:link {text-decoration: none}
+a:visited {text-decoration: underline;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: underline;}
 p {font-family: "Roboto" ; font-size: 18px; line-height: 2.25;}
-#grad2 {height: 750px; background-image: linear-gradient(#FBF0CB, white);}
-h2 {font-family: "Roboto Slab"; font-size: 32px; letter-spacing: 8pt; text-align: center; line-height: 2;}
-div.gallery {float: left; padding: 10px; width: 200px;}
-div.gallery img {margin-left: 20px; width: 100%; height: auto;}
-div.button {padding: 10px;}
-h3 {font-family: "Roboto Slab"; font-size: 22px; letter-spacing: 4pt;}
+.maincontent {float: left; padding: 50px; max-width: 95%;}
+
+#grad2 {height: 750px; background-image: linear-gradient(white,#ffe48b, white);}
+h2 {font-family: "Roboto Slab"; font-size: 32px; letter-spacing: 6pt; text-align: center; line-height: 2;}
+.flex-container {display: flex; justify-content: center;}
+.flex-container > div {width: 200px; text-align: center;}
+.button {background-color: inherit; border: none; border-radius: 5px; padding:10px 24px; text-align: center; display: inline-block; font-size: 16px; cursor: pointer;}
+.button:hover {background-color: #FBF0CB;}   
+.button:active {background-color: #ffe48b;}                                                                                                                                                                                                                                      
+.desc {display: flex; justify-content: center; align-items: center; padding-top: 30px;}
+.desc pre {display: inline-block; text-align: left; max-width: 800px;}
+pre {font-family: "Roboto" ; font-size: 18px; line-height: 2.25;}
+
+
+h3 {font-family: "Roboto Slab"; font-size: 18px; letter-spacing: 4pt;}
+.container {position:relative; text-align: center;}
+.centered {position: absolute; top: 50px; width: 90%; left: 50%; transform: translate(-50%);}
+.footer a {padding: 18px; font-family: "Roboto Slab"; font-size: 18px; color: black}
+
+
+
+
+
+
+
+
+
+
